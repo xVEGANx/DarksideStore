@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body{
-    background-color:tomato;
+    background-color: blanchedalmond";
     color: white;
     font-family: 'Open Sans';}
 
 
 .fondo{
-    background: url(IMG/Background.jpg);
-    height: 100vh;}
+    background: url(IMG/Background2.jpg);
+    height: 100vh;}*/
 
 .logo02{
     background: url(IMG/logo02.png);
@@ -26,5 +26,10 @@ body{
 
 .top-nav-collapse{
     background: rgba(26, 26, 26, 0.90) !important;}   
-    
 
+.fab{
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;}
+
+     
