@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    background-color:tomato;
+    color: white;
+    font-family: 'Open Sans';}
+
+
+.fondo{
+    background: url(IMG/Background.jpg);
+    height: 100vh;}
+
+.logo02{
+    background: url(IMG/logo02.png);
+    float: left;
+}
+
+/*=================================== B A R R A   D E   N A V E G A C I O N */
+.centrado{
+    margin: 0 auto;
+    }
+
+.gris{
+    background: rgba(26, 26, 26, 0.30);}
+
+
+.top-nav-collapse{
+    background: rgba(26, 26, 26, 0.90) !important;}   
+    
+
