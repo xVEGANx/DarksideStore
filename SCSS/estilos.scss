@@ -1,20 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
-    color: black;
-    font-family: 'Open Sans';}
-
-.fondo{
+    
+.fondo0{
     background: url(../IMG/Background2.jpg);
-    height: 100vh;
-}
+    height: 100vh;}
+
+.fondo1{
+    background: hsl(46, 74%, 92%);
+    color: rgb(26, 9, 0);}
+
     
 /*========================================================================== N  A  V     B  A  R */
 .centrado{
     margin: 0 auto;}
 
 .gris{
-    background:rgba(0, 0, 0, 0.40);}
+    background:rgba(0, 0, 0, 0.60);}
 
 .top-nav-collapse{
     background: rgba(26, 26, 26, 0.90) !important;}   
@@ -44,14 +45,30 @@ ul{
     background-color:#ffffff00;
     color: darkgoldenrod;}
 
-/*==============================================================================C O N T E N I D O */
-
+/*================================================================= C O N T E N I D O   C O M P A R T I D O*/
 .logo2{
     position: relative;
     width: 600px;
     height: 500px;
     top: 30%;
     margin: 0 auto;}
+
+.intro {
+    position: relative;
+    width: 75%;
+    margin: 150px auto;
+    font-size: 16px;
+    height: 100px;
+    display: block;
+    text-align:center;}
+
+#galeria{
+    position: relative;
+    margin-top: 250px;
+    background: white;
+    img{
+        padding: 10px 0;}}
+
 
 /*================================================================================= F O O T E R S */
 .caja1{
@@ -66,9 +83,12 @@ ul{
     color: white;
     margin: 0 auto;}
 
-.row{
+.filas{
     margin: 0 auto;
-    text-align: center;}
+    text-align: center;
+    img{
+        padding-top:5px;
+    }}
 
 .titulos{
     font-size: 25px;

@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-body { color: black; font-family: 'Open Sans'; }
+.fondo0 { background: url(../IMG/Background2.jpg); height: 100vh; }
 
-.fondo { background: url(../IMG/Background2.jpg); height: 100vh; }
+.fondo1 { background: #faf3dc; color: #1a0900; }
 
 /*========================================================================== N  A  V     B  A  R */
 .centrado { margin: 0 auto; }
 
-.gris { background: rgba(0, 0, 0, 0.4); }
+.gris { background: rgba(0, 0, 0, 0.6); }
 
 .top-nav-collapse { background: rgba(26, 26, 26, 0.9) !important; }
 
@@ -22,13 +22,21 @@ ul li a:hover { background: darkgoldenrod; color: white; }
 
 .active { background-color: #ffffff00; color: darkgoldenrod; }
 
-/*==============================================================================C O N T E N I D O */
+/*================================================================= C O N T E N I D O   C O M P A R T I D O*/
 .logo2 { position: relative; width: 600px; height: 500px; top: 30%; margin: 0 auto; }
+
+.intro { position: relative; width: 75%; margin: 150px auto; font-size: 16px; height: 100px; display: block; text-align: center; }
+
+#galeria { position: relative; margin-top: 250px; background: white; }
+
+#galeria img { padding: 10px 0; }
 
 /*================================================================================= F O O T E R S */
 .caja1 { position: absolute; left: 0; right: 0; bottom: 10px; margin: 0 auto; height: 150px; width: 60%; background-color: rgba(0, 0, 0, 0.4); color: white; margin: 0 auto; }
 
-.row { margin: 0 auto; text-align: center; }
+.filas { margin: 0 auto; text-align: center; }
+
+.filas img { padding-top: 5px; }
 
 .titulos { font-size: 25px; font-family: 'Segoe UI'; color: #fde94e; }
 
