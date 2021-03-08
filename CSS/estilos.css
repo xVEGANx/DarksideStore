@@ -62,7 +62,7 @@ ul li a:hover { background: darkgoldenrod; color: white; }
 
 .google-maps { position: relative; padding-bottom: 85%; height: 0; overflow: hidden; }
 
-.google-maps__iframe { position: absolute; top: 0; left: 0; width: 200px !important; height: 200px !important; }
+.google-maps__iframe { position: absolute; top: 0; left: 0; width: 199px !important; height: 199px !important; }
 
 .segmento-tres h4 { border-bottom: 1px solid; padding-bottom: 15px; }
 
