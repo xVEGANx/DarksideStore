@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
 
     
 .fondo0{
@@ -20,7 +22,7 @@
 .top-nav-collapse{
     background: rgba(26, 26, 26, 0.90) !important;}   
 
-.fab{
+.fab {
     color: white;
     font-size: 25px;
     padding: 5px 10px;}
@@ -70,8 +72,8 @@ ul{
         padding: 10px 0;}}
 
 
-/*================================================================================= F O O T E R S */
-.caja1{
+/*================================================================================= F O O T E R 1 */
+.footer1{
     position: absolute;
     left: 0;
     right: 0;
@@ -80,7 +82,6 @@ ul{
     height: 150px;
     width: 60%;
     background-color:rgba(0, 0, 0, 0.40);
-    color: white;
     margin: 0 auto;}
 
 .filas{
@@ -93,10 +94,94 @@ ul{
 .titulos{
     font-size: 25px;
     font-family: 'Segoe UI';
-    color: hsl(53, 98%, 65%);}
+    color: #e09900;}
 
 .subtitulos{
     font-size: 18px;
-    font-family:  'Segoe UI';}
+    font-family:  'Segoe UI';
+    color: white;}
+/*================================================================================= F O O T E R 2 */
+#foooter {
+    background: #333333;
+    color: #faa700;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 30px; 
+    padding-bottom: 20px;}
 
+.fontFooter{
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Barlow Condensed', sans-serif;}
+
+.fas {
+    color: #faa700;
+    font-size: 19px;}
+
+.txtFooter{
+    color: #faa700;
+    font-size: 16px;}
+
+     
+.segmento-uno{
+    h4{
+        border-bottom: 1px solid;
+        padding-bottom: 15px;
+        &:before {
+            content: "| ";
+            color: red;}}}
+      
+.segmento-dos{
+    h4{
+        border-bottom: 1px solid;
+        padding-bottom: 15px;
+        &:before {
+            content: "| "; 
+            color:red;}}}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 85%;
+    height: 0;
+    overflow: hidden; }
+                  
+.google-maps__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px !important;
+    height: 200px !important;}
+
+.segmento-tres{
+    h4{
+        border-bottom: 1px solid;
+        padding-bottom: 15px;
+        &:before {
+            content: "| "; 
+            color:red;}}}
+
+.segmento-tres ul li a{
+    color: white;
+    text-decoration: none;
+    color: #faa700;
+    font-size: 16px;}
+        
+    
+
+.linksUtiles {
+    list-style: none;
+    color: white;
+    text-decoration: none;}
+
+.segmento-cuatro{
+    h4{
+        border-bottom: 1px solid;
+        padding-bottom: 15px;
+        &:before {
+            content: "| "; 
+            color:red;}}}
+  
 
