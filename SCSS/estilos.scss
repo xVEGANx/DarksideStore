@@ -56,8 +56,8 @@ ul{
 
 .intro {
     position: relative;
-    width: 75%;
-    margin: 150px auto;
+    width: 60%;
+    margin: 110px auto 0px auto;
     font-size: 16px;
     height: 100px;
     display: block;
@@ -69,6 +69,18 @@ ul{
     background: white;
     img{
         padding: 10px 0;}}
+
+.estilosTattoo{
+    position: relative;
+    top: 0px;
+    padding: 15px auto;
+    margin: 0 auto;}
+
+.encabezado {
+    font-size: 20px;
+    color:rgb(41, 15, 0);
+    font-weight: 500;
+    }
 
 
 /*================================================================================= F O O T E R 1 */

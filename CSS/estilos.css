@@ -26,11 +26,15 @@ ul li a:hover { background: darkgoldenrod; color: white; }
 /*================================================================= C O N T E N I D O   C O M P A R T I D O*/
 .logo2 { position: relative; width: 600px; height: 500px; top: 30%; margin: 0 auto; }
 
-.intro { position: relative; width: 75%; margin: 150px auto; font-size: 16px; height: 100px; display: block; text-align: center; }
+.intro { position: relative; width: 60%; margin: 110px auto 0px auto; font-size: 16px; height: 100px; display: block; text-align: center; }
 
 #galeria { position: relative; margin-top: 250px; background: white; }
 
 #galeria img { padding: 10px 0; }
+
+.estilosTattoo { position: relative; top: 0px; padding: 15px auto; margin: 0 auto; }
+
+.encabezado { font-size: 20px; color: #290f00; font-weight: 500; }
 
 /*================================================================================= F O O T E R 1 */
 .footer1 { position: absolute; left: 0; right: 0; bottom: 10px; margin: 0 auto; height: 150px; width: 60%; background-color: rgba(0, 0, 0, 0.4); margin: 0 auto; }
