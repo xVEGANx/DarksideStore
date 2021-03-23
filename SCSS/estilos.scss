@@ -157,8 +157,91 @@ ul{
             content: "| "; 
             color:red;}}}
   
+/*============================================================= W E B   S T O R E */
+#webstore{
+    margin-top: 110px;
+    margin-bottom: 110px;
+    color: white;}
+.store{
+    max-width: 1000px;
+    width: 90%;
+     margin: auto;}
+
+.cuadro{
+    background: rgba(50, 33, 16, 0.45);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;}
+
+.cuadro__thumbnail{
+    width: 250px;
+    height: 200px;
+    background: white;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;}
+
+.cuadro__img{
+    width: 300px;
+    height: 200px;}
+            
+.cuadro__titulo{
+    font-family: 'open sans';
+    font-size: 30px;
+     margin-bottom: 20px;}
+
+.cuadro__textos{
+    color: white;}
+
+.cuadro_link{
+    color: white;}
+
+.cuadro__descripcion{
+    line-height: 28px;
+    margin-bottom: 20px;}
+
+.boton{
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    background: black;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #513d3df0;
+    transition: .3s ease all;}
+
+.boton__texto{
+    font-size: 15px;}
+
+.boton:hover{
+    background: brown;
+    color:white;
+    text-decoration: none;}
+
+.frase{
+    text-align: center;
+    margin-left: 70px 0;}
+
+.frase__texto{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;}
+
+
 
 /*================================================================= C O N T E N I D O   C O M P A R T I D O*/
+
 .logo2{
     position: relative;
     width: 600px;
@@ -229,4 +312,9 @@ ul{
     justify-content: center;
     text-align: center;
     font-size: 18px;}
+
+.titulo{
+    font-size: 35px;
+    color: black;
+    margin: 30px 20%;}
 
