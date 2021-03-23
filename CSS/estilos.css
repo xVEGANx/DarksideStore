@@ -92,9 +92,7 @@ ul li a:hover { background: darkgoldenrod; color: white; }
 
 .boton:hover { background: brown; color: white; text-decoration: none; }
 
-.frase { text-align: center; margin-left: 70px 0; }
-
-.frase__texto { margin-bottom: 20px; font-size: 30px; font-weight: 600; font-style: italic; }
+.comprar { text-align: center; margin-left: 70px 0; }
 
 /*================================================================= C O N T E N I D O   C O M P A R T I D O*/
 .logo2 { position: relative; width: 600px; height: 500px; top: 30%; margin: 0 auto; }
