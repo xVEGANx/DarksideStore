@@ -46,62 +46,6 @@ ul{
     background-color:#ffffff00;
     color: darkgoldenrod;}
 
-/*================================================================= C O N T E N I D O   C O M P A R T I D O*/
-.logo2{
-    position: relative;
-    width: 600px;
-    height: 500px;
-    top: 30%;
-    margin: 0 auto;}
-
-.intro {
-    position: relative;
-    width: 60%;
-    margin: 110px auto 0px auto;
-    font-size: 16px;
-    height: 100px;
-    display: block;
-    text-align:center;}
-
-#galeria{
-    position: relative;
-    margin-top: 250px;
-    background: white;
-    img{
-        padding: 10px 0;}}
-
-      
-.estilosTattoo{
-    position: flex;
-    width: 1200px;
-    padding: 15px auto;
-    margin: 0 auto;}
-
-.encabezado {
-    font-size: 20px;
-    color:rgb(41, 15, 0);
-    font-weight: 500;}
-
-#tattooIntro {
-    width: 1100px;
-    margin: 0 auto 50px auto;}
-
-.subtattoo{
-    width: 1100px;
-    color: rgb(41, 15, 0);
-    font-size: 30px;
-    margin: 0 auto;
-    padding-bottom: 30px;
-    text-decoration: underline;}
-
-.txttattoo{
-    line-height: 40px;
-    font-size: 20px;
-    text-align: justify;}
-
-.center{
-    text-align: center;}
-
 /*================================================================================= F O O T E R 1 */
 .footer1{
     position: absolute;
@@ -140,7 +84,7 @@ ul{
     bottom: 0;
     width: 100%;
     padding-top: 30px; 
-    padding-bottom: 20px;}
+    padding-bottom: 10px;}
 
 .fontFooter{
     color: white;
@@ -213,4 +157,76 @@ ul{
             content: "| "; 
             color:red;}}}
   
+
+/*================================================================= C O N T E N I D O   C O M P A R T I D O*/
+.logo2{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    top: 30%;
+    margin: 0 auto;}
+
+.texto1 {
+    width: 70%;
+    margin: 110px auto 0px auto;
+    font-size: 16px;
+    height: 100px;
+    text-align:center;}
+
+.introGral {
+    width: 70%;
+    font-size: 18px;
+    text-align:center;
+    margin: 110px auto 50px;
+    text-align: justify;}
+    
+
+#galeria{
+    background: white;
+
+    img{
+        padding: 10px 0;}}
+
+   
+.estilosTattoo{
+    position: flex;
+    width: 1200px;
+    padding: 15px auto;
+    margin: 0 auto;}
+
+.encabezado {
+    font-size: 20px;
+    color:rgb(41, 15, 0);
+    font-weight: 500;}
+
+#tattooIntro {
+    width: 1100px;
+    margin: 0 auto 50px auto;}
+
+.subtattoo{
+    width: 1100px;
+    color: rgb(41, 15, 0);
+    font-size: 30px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-decoration: underline;}
+
+.txttattoo{
+    line-height: 40px;
+    font-size: 20px;    }
+
+.center{
+    text-align: center;}
+
+.tituloIzq{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-left: calc(100% / 10 * 1.5);}
+
+#tabla-barberos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;}
 
