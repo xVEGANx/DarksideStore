@@ -94,6 +94,15 @@ ul li a:hover { background: darkgoldenrod; color: white; }
 
 .comprar { text-align: center; margin-left: 70px 0; }
 
+/*==================================================================================== C O N T A C T O */
+.riogallegos { width: 100%; }
+
+.form-label { letter-spacing: 3px; margin-top: 30px; margin-bottom: 10px; color: whitesmoke; }
+
+form { background: rgba(0, 0, 0, 0.4); padding: 20px; margin-bottom: 20px; }
+
+.form-textarea { width: 95%; height: 100px; }
+
 /*================================================================= C O N T E N I D O   C O M P A R T I D O*/
 .logo2 { position: relative; width: 600px; height: 500px; top: 30%; margin: 0 auto; }
 
